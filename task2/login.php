@@ -1,11 +1,3 @@
-<?php
-if (isset($_GET['error'])) {
-    echo '<div class="alert alert-danger text-center">
-            Invalid Email or Password!
-          </div>';
-}
-?>
-
 <!DOCTYPE html> 
 <html lang="en"> 
 <head >
@@ -59,7 +51,7 @@ if (isset($_GET["error"])) {
  <span class="input-group-text">
     <i class="bi bi-lock-fill"></i>
 </span>
-    <input type="password" name="password" class="form-control" placeholder="Enter your password" required>
+<input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
     <span class="input-group-text" id="togglePassword"><i class="bi bi-eye-fill" id="eyeIcon"></i></span>
 </div>
 <div class ="justify-content-between d-flex form-check mb-3">
@@ -88,7 +80,7 @@ if (isset($_GET["error"])) {
             integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
             crossorigin="anonymous"></script>
 
-    <script src="script.js"></script>
-     
+  <script src="script.js"></script>
+   
 </body>
 </html>
