@@ -99,12 +99,6 @@ APEX_PLANET_INTERN/
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots of each task here.
-
----
-
 # ▶️ How to Run
 
 1. Install XAMPP.
