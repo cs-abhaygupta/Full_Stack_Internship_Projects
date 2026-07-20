@@ -5,7 +5,7 @@ include "db.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $email = trim($_POST["email"]);
-    $password = trim($_POST["password"]);
+    $password = $_POST["password"];
 
     $sql = "SELECT * FROM users WHERE email='$email'";
     $result = mysqli_query($conn, $sql);
@@ -46,4 +46,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: login.php");
     exit();
 
-}   
+}
+?>

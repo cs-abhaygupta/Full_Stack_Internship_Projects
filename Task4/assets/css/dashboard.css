@@ -1,0 +1,15 @@
+.sidebar{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 240px;
+    height: calc(100vh - 70px);
+    background: #212529;
+    overflow-y: auto;
+}
+
+.main-content{
+    margin-left: 240px;
+    margin-top: 70px;
+    padding: 30px;
+}

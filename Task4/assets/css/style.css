@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f6fa;
+}
+
+.sidebar{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 240px;
+    height: calc(100vh - 70px);
+    background: #212529;
+    overflow-y: auto;
+}
+
+.main-content{
+    margin-left: 240px;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.search-box {
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.search-box .form-control {
+    height: 45px;
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #ced4da;
+    font-size: 15px;
+}
+
+.search-box .btn {
+    height: 45px;
+    width: 60px;
+    border-radius: 0 8px 8px 0;
+}

@@ -21,6 +21,11 @@ $start = ($page - 1) * $limit;
 $search = "";
 $countQuery = "SELECT COUNT(*) AS total FROM users";
 $countResult = mysqli_query($conn, $countQuery);
+
+if (!$countResult) {
+    die("SQL Error: " . mysqli_error($conn));
+}
+
 $totalUsers = mysqli_fetch_assoc($countResult);
 
 $totalPages = ceil($totalUsers["total"] / $limit);

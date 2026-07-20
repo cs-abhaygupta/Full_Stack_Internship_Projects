@@ -2,7 +2,9 @@
 
 This repository contains all the tasks completed during my **60-Day Full Stack Web Development Internship** at **ApexPlanet Software Pvt. Ltd.**
 
-## 🚀 Technologies Used
+---
+
+# 🚀 Technologies Used
 
 - HTML5
 - CSS3
@@ -19,9 +21,10 @@ This repository contains all the tasks completed during my **60-Day Full Stack W
 ```
 APEX_PLANET_INTERN/
 │
-├── task1/
-├── task2/
+├── Task1/
+├── Task2/
 ├── Task3/
+├── Task4/
 └── README.md
 ```
 
@@ -84,7 +87,7 @@ APEX_PLANET_INTERN/
 - Delete User
 - Search Users
 - Pagination
-- Total Users Dashboard Card
+- Dashboard Statistics
 - Success Alerts
 - Responsive Bootstrap Dashboard
 
@@ -99,11 +102,69 @@ APEX_PLANET_INTERN/
 
 ---
 
+# ✅ Task 4 - Library Management System
+
+### Features
+
+#### 🔐 Authentication
+- User Registration
+- Secure Login
+- Logout
+- Password Hashing
+- Session Management
+
+#### 📊 Dashboard
+- Dashboard Statistics
+- Total Books
+- Total Members
+- Issued Books Count
+- Returned Books Count
+
+#### 📚 Book Management
+- Add Book
+- View Books
+- Search Books
+- Edit Book
+- Delete Book
+- Available Quantity Management
+
+#### 👥 Member Management
+- Add Member
+- View Members
+- Search Members
+- Edit Member
+- Delete Member
+
+#### 📖 Issue & Return Management
+- Issue Books
+- Return Books
+- View Issued Books
+- Automatic Book Quantity Update
+- Issue Status Tracking
+
+#### 🎨 User Interface
+- Responsive Bootstrap Dashboard
+- Sidebar Navigation
+- Navbar
+- Success & Error Alerts
+- Bootstrap Icons
+
+### Technologies
+
+- PHP
+- MySQL
+- Bootstrap 5
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
 # ▶️ How to Run
 
-1. Install XAMPP.
-2. Start Apache and MySQL.
-3. Import the MySQL database into phpMyAdmin.
+1. Install **XAMPP**.
+2. Start **Apache** and **MySQL**.
+3. Import the required MySQL database into **phpMyAdmin**.
 4. Copy the project folder to:
 
 ```
@@ -126,4 +187,4 @@ GitHub: https://github.com/cs-abhaygupta
 
 ---
 
-⭐ Thank you for visiting this repository.
+⭐ **Thank you for visiting this repository.**
