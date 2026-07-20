@@ -10,9 +10,9 @@
             Welcome,
             <strong><?php echo $_SESSION["name"]; ?></strong>
 
-            <a href="logout.php" class="btn btn-light btn-sm ms-3">
-                Logout
-            </a>
+              <a href="logout.php" class="btn btn-danger">
+    Logout
+</a>
 
         </div>
 

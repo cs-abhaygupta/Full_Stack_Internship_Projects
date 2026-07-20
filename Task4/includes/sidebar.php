@@ -34,7 +34,7 @@
 
     <hr class="text-white">
 
-    <!-- Logout -->
+    
     <a href="/apex_planet_intern/Task4/logout.php"
        class="btn btn-danger w-100">
         <i class="bi bi-box-arrow-right"></i> Logout
